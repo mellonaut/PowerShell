@@ -1,0 +1,20 @@
+# search hidden folders with force and ignore the red
+Get-ChildItem C:\ -recurse -force -erroraction SilentlyContinue 
+
+# Search all with "sorrow"
+Get-ChildItem C:\ -recurse -Include *sorrow* -force -erroraction SilentlyContinue
+
+# Search but show only files, and exclude jpg, mp3, tmp
+Get-ChildItem –Path C:\ -Include *sorrow* -Exclude *.JPG,*.MP3,*.TMP -File -Recurse -ErrorAction SilentlyContinue
+
+$Search two locations for Doc files
+Get-ChildItem –Path C:\Users, D:\Temp -Include *.doc* -File -Recurse -ErrorAction SilentlyContinue
+
+# Search the locations and sort for objects that have been modified since $FindDate
+$FindDate=Get-Date -Year 2016 -Month 06 -Day 24
+Get-ChildItem –Path C:\Users, D:\Temp -Include *.doc* -File -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -ge $FindDate }
+
+
+
+
+

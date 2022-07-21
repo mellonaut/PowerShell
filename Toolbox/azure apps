@@ -1,0 +1,11 @@
+# SecureString password to create a service principal as a variable
+$secpwd = ConvertTo-SecureString "PassWord" -AsPlainText -Force
+
+# Convert it back to be used programatically as a file
+$secpwd | ConvertFrom-SecureString | Out-File -FilePath '.\AzureAppPassword.txt'
+
+# Create the credential object to authetnicate the application
+$azureAppId = "$AppId"
+$azureAppIdPasswordFilePath = '.\AzureAppPassword.txt' 
+$pwd = (Get-Content -Path $azureAppIdPasswordFilePath | ConvertTo-Securestring)
+$azureAppCred = (New-Object System.Management.Automation.PSCredential $azureAppId,$pwd)

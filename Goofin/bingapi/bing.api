@@ -1,0 +1,25 @@
+00379c6e1d4a46edbca833a17a6fd542
+
+$key  = "00379c6e1d4a46edbca833a17a6fd542"
+$searchUrl = "https://api.bing.microsoft.com/v7.0/search"
+$searchTerm = "Big Butt Yoga Pants"
+
+$body = @{
+    "subscriptionKey"  = "00379c6e1d4a46edbca833a17a6fd542"
+    "baseUri" = "https://api.bing.microsoft.com/v7.0/search"
+    "searchString" = "Big Butt Yoga Pants"
+}
+
+$BingQuery = "Big Butt Yoga Pants"
+$MyBingApiKey = "00379c6e1d4a46edbca833a17a6fd542"
+$WebSearch = Invoke-RestMethod -Uri `
+"https://api.cognitive.microsoft.com/bingcustomsearch/v7.0/images/search" `
+-Headers @{ "Ocp-Apim-Subscription-Key" = $MyBingApiKey } 
+
+
+GET https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=sailing+dinghies&mkt=en-us HTTP/1.1
+Ocp-Apim-Subscription-Key: 00379c6e1d4a46edbca833a17a6fd542
+X-MSEdge-ClientIP: 999.999.999.999
+X-Search-Location: lat:47.60357;long:-122.3295;re:100
+X-MSEdge-ClientID: <blobFromPriorResponseGoesHere>
+Host: api.cognitive.microsoft.com

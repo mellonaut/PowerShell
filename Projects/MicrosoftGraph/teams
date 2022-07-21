@@ -1,0 +1,15 @@
+Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All","Directory.ReadWrite.All"
+$user = Get-MgUser -Filter "UserPrincipalName eq 'mellonaut@sludge.one'"
+$user.DisplayName
+Get-MgUserJoinedTeam -UserId $user.Id
+$team = '6e47a3fb-097d-49d8-a055-20a1a954c11d'
+
+Get-MgTeamChannel -TeamId $team
+$channel = Get-MgTeamChannel -TeamId $team -Filter "displayName eq 'General'"
+
+# send msg, using the body parameter to map the chatMessage object to the POST  request
+New-MgTeamChannelMessage -TeamId $team -ChannelId $channel.Id -Body @{ Content="Hello Grrrrl" }
+
+
+# Urgent example
+New-MgTeamChannelMessage -TeamId $team -ChannelId $channel.Id -Body @{ Content="Hello World" } -Importance "urgent"

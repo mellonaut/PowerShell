@@ -1,0 +1,14 @@
+APIVoid Code Examples
+
+We created some PHP7 and Python3 code examples to use APIVoid services.
+
+These files must not be shared:
+
+* You cannot share these files online.
+* You cannot host these files on servers to make them online publicly.
+* You cannot distribute these files for download on your website.
+
+Have questions?
+
+https://www.apivoid.com/contacts/
+
