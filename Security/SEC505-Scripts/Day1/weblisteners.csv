@@ -1,0 +1,965 @@
+#TYPE Selected.System.String
+"HostName","FQDN","Status","IPv4","IPv6","MAC","Ports","Services","OS","Script"
+"<no-hostname>","<no-fullname>","up","10.57.14.191","<no-ipv6>","<no-mac>","open:tcp:80:http","<no-services>","Microsoft Windows Vista SP3/SP1 or Windows XP SP1/SP2 <94%-accuracy>
+PDA Microsoft Windows PocketPC/CE <99%-accuracy>
+WAP Microsoft embedded <97%-accuracy>
+general purpose Microsoft Windows Vista <95%-accuracy>
+general purpose Microsoft Windows XP <95%-accuracy>
+general purpose Microsoft Windows Me <95%-accuracy>
+general purpose Microsoft Windows PocketPC/CE <95%-accuracy>
+media device Microsoft embedded <95%-accuracy>
+general purpose Microsoft Windows 2008 <94%-accuracy>
+authentication server Juniper Windows Vista <92%-accuracy>
+terminal HP Windows PocketPC/CE <90%-accuracy>
+specialized Symbol Windows PocketPC/CE <90%-accuracy>
+print server AXIS embedded <89%-accuracy>
+media device Motorola Windows PocketPC/CE <89%-accuracy>
+media device Swisscom embedded <89%-accuracy>
+media device T-Home embedded <89%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.14.212","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4050/4200/4600/5100 (JetDirect) printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.213","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.215","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.216","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet P3005 or CP4005 printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.217","<no-ipv6>","<no-mac>","open:tcp:80:http
+open:tcp:515:printer
+open:tcp:631:ipp
+filtered:tcp:5432:postgres
+open:tcp:9100:jetdirect","<no-services>","Linux 2.4.28 - 2.4.30 <100%-accuracy>
+general purpose Linux Linux 2.4.X <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.218","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.219","<no-ipv6>","<no-mac>","open:tcp:7:echo
+open:tcp:9:discard
+open:tcp:19:chargen
+open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:111:rpcbind
+open:tcp:427:svrloc
+open:tcp:513:login
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","Xerox Phaser 6350DT printer <100%-accuracy>
+broadband router Ambit embedded <100%-accuracy>
+printer Xerox embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.220","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.221","<no-ipv6>","<no-mac>","open:tcp:7:echo
+open:tcp:9:discard
+open:tcp:19:chargen
+open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:111:rpcbind
+open:tcp:427:svrloc
+open:tcp:513:login
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","Xerox Phaser 6350DT printer <100%-accuracy>
+broadband router Ambit embedded <100%-accuracy>
+printer Xerox embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.222","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.223","<no-ipv6>","<no-mac>","open:tcp:7:echo
+open:tcp:9:discard
+open:tcp:19:chargen
+open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:111:rpcbind
+open:tcp:427:svrloc
+open:tcp:513:login
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","Xerox Phaser 6350DT printer <100%-accuracy>
+broadband router Ambit embedded <100%-accuracy>
+printer Xerox embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.224","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4050/4200/4600/5100 (JetDirect) printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.227","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.228","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 8100 Series printer <85%-accuracy>
+print server HP embedded <95%-accuracy>
+router Adtran embedded <86%-accuracy>
+printer HP embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.229","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.232","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.233","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.234","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.237","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet P3005 or CP4005 printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.238","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4050/4200/4600/5100 (JetDirect) printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.239","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4050/4200/4600/5100 (JetDirect) printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.240","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.241","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.242","<no-ipv6>","<no-mac>","open:tcp:80:http
+open:tcp:515:printer
+open:tcp:631:ipp
+filtered:tcp:5432:postgres
+open:tcp:9100:jetdirect","<no-services>","Linux 2.4.28 - 2.4.30 <100%-accuracy>
+general purpose Linux Linux 2.4.X <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.243","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.244","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.245","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4050/4200/4600/5100 (JetDirect) printer <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.247","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.248","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:280:http-mgmt
+open:tcp:443:https
+open:tcp:515:printer
+open:tcp:631:ipp
+open:tcp:9100:jetdirect","<no-services>","HP LaserJet 4250 printer (J7949E) <100%-accuracy>
+printer HP embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.51.14.253","<no-ipv6>","<no-mac>","open:tcp:21:ftp
+open:tcp:23:telnet
+open:tcp:80:http","<no-services>","APC AP3802 metered rack power distribution unit (AOS 2.7.0) <100%-accuracy>
+power-device APC AOS 2.X <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.6","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.12","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.14","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.16","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.17","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.16","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.18","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.36","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.40","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.48","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.50","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.56","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.61","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.64","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.65","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.74","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.79","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.80","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.84","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.90","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.91","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.92","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.93","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.94","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.95","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.96","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.97","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.98","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.99","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.100","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.101","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.102","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.103","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.104","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.105","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.106","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.107","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.108","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.109","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.110","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.111","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.112","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.113","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.114","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.115","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.116","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.117","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.119","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.120","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.121","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.122","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.123","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.124","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.125","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.126","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <96%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.127","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.128","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.129","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.130","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.131","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.132","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.133","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.134","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.135","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.136","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.137","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.138","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.139","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.140","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","Cisco IP phone (7911, 7941, 7961, or 7970) <100%-accuracy>
+VoIP phone Cisco embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.141","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.142","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","Cisco IP phone (7911, 7941, 7961, or 7970) <100%-accuracy>
+VoIP phone Cisco embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.143","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.149","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.145","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.146","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","Cisco IP phone (7911, 7941, 7961, or 7970) <100%-accuracy>
+VoIP phone Cisco embedded <100%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.147","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.148","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.149","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.150","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.151","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.152","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.122","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.154","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.155","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.156","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.157","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.158","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.159","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.160","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.161","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.162","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.163","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <96%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.164","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.165","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.166","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.167","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.168","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.169","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.170","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.171","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.172","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.173","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.174","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.175","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.176","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.177","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.178","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.179","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.180","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.181","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.182","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.183","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.184","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.185","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.186","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.187","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.188","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.189","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.190","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.191","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.192","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.193","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.194","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.195","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.196","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <96%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.197","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.198","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <94%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.199","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.58.19.100","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <93%-accuracy>
+scanner HP embedded <88%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.5","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.6","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.7","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.8","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.9","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.16","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.18","<no-ipv6>","<no-mac>","open:tcp:22:ssh
+open:tcp:80:http","<no-services>","HP 4320d Digital Sender scanner <88%-accuracy>
+VoIP phone Cisco embedded <97%-accuracy>
+scanner HP embedded <88%-accuracy>
+ATM NCR embedded <85%-accuracy>","<no-script>"
+"<no-hostname>","<no-fullname>","up","10.57.92.250","<no-ipv6>","<no-mac>","open:tcp:23:telnet
+open:tcp:80:http
+open:tcp:1720:H.323/Q.931
+open:tcp:5060:sip","<no-services>","Cisco 2960G switch (IOS 12.2) <93%-accuracy>
+router Cisco IOS 12.X <96%-accuracy>
+WAP Cisco IOS 12.X <96%-accuracy>
+switch Cisco IOS 12.X <96%-accuracy>
+specialized Cisco IOS 12.X <92%-accuracy>
+broadband router Cisco IOS 12.X <89%-accuracy>
+switch Cisco CatOS <88%-accuracy>","<no-script>"
