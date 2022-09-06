@@ -1,10 +1,10 @@
 # Check if modules installed, install
 # if(!(get-module -ListAvailable -name ActiveDirectory)){ Install-Module ActiveDirectory }
-if(!(get-module -ListAvailable -name MSOnline)){ Install-Module MSOnline }
+if(!(get-module -ListAvailable -name AzureAd*)){ Install-Module AzureAdPreview }
 
 # Import modules
 Import-Module ActiveDirectory
-Import-Module MSOnline
+Import-Module AzureAdPreview
 
 # Test if connected to MSOnline, prompt for credentials if not
 try {
