@@ -52,7 +52,7 @@ $Table2 = @()
 $Record = @{
   "Group Name" = ""
   "Name" = ""
-  "Username" = ""
+  # "Username" = ""
 }
 
 # Get loopin
@@ -78,14 +78,14 @@ if(!(test-Path ~\O365Groups.csv)){
   Write-Output "Your O365 Groups output file was not created."
 }
 else{
-  Write-Output "O365 Groups and Users output to O365Groups.csv in your home directory."
+  Write-Output "O365 Groups and Users output to O365Groups.csv"
 }
 
 # Test if the file was created for AD groups
 if(!(test-Path ~\ADGroups.csv)){
   Write-Output "Your AD Groups output file was not created."}
 else{
-  Write-Output "Active Directory Groups and Users output to ADGroups.csv in your home directory."
+  Write-Output "Active Directory Groups and Users output to ADGroups.csv"
 }
 
 # If files exist, check the contents of the file against the Table we took them from. If the data does not match, most likely the file did not get updated
@@ -97,14 +97,14 @@ $good0365 = if(!($o365 -eq $Table2)) { Write-Output "Check the O365Groups.csv, c
 Write-Output "Finished pulling groups"
 
 # Run our file checks for AD
-if(test-path $ad)
-  {Write-Output "AD file looks good"}
+if(test-path ~\ADGroups.csv)
+  {Write-Output "AD file exists"}
 else
   {Write-Output "AD Groups was not successful"}
 
 # Run our filechecks for O365
-if(test-path $o365)
-  { Write-Output "O365 file looks good"}
+if(test-path ~\O365Groups.csv)
+  { Write-Output "O365 file exists"}
 else
   {Write-Output "O365 Groups was not successful"}
 
