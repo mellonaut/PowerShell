@@ -1,7 +1,10 @@
 
 # Check if modules installed, install
-if(!(get-module -ListAvailable -name ActiveDirectory)){ Install-Module ActiveDirectory; Import-Module ActiveDirectory }
-if(!(get-module -ListAvailable -name msonline)){ Install-Module MSonline; Import-Module MSOnline }
+if(!(get-module -ListAvailable -name ActiveDirectory)){ Install-Module ActiveDirectory }
+if(!(get-module -ListAvailable -name msonline)){ Install-Module MSonline }
+
+Import-Module MSOnline
+Import-Module ActiveDirectory
 
 
 # Test if connected to MSOnline, prompt for credentials if not
@@ -9,7 +12,6 @@ try {
     Get-MsolDomain -ErrorAction Stop > $null
 }
 catch {
-    # if ($cred -eq $null) {$cred = Get-Credential $O365Adminuser}
     Write-Output "Connecting to Office 365..."
     Connect-MsolService
 }
@@ -52,7 +54,6 @@ $Table2 = @()
 $Record = @{
   "Group Name" = ""
   "Name" = ""
-  # "Username" = ""
 }
 
 # Get loopin
@@ -64,7 +65,6 @@ Foreach ($Group in $ADGroups)
   {
     $Record."Group Name" = $Group
     $Record."Name" = $Member.name
-    # $Record."UserName" = $Member.samaccountname
     $objRecord = New-Object PSObject -property $Record
     $Table2 += $objrecord
   }
@@ -109,8 +109,8 @@ else
   {Write-Output "O365 Groups was not successful"}
 
 # Say Goodbye
-Write-Output "All script output to your home directory"
-Write-Output "Enjoy your spreadsheets!"
+Write-Output "CSVs output to your home directory, for FG's perusal."
+
 
 
 
