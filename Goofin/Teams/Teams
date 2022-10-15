@@ -1,0 +1,18 @@
+Install-Module -Name OneDrive
+Install-Module -Name Microsoftteams
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+
+Import-Module -Name OneDrive
+Import-Module -Name Microsoft.Online.SharePoint.PowerShell
+Import-Module -Name MicrosoftTeams
+
+Connect-MicrosoftTeams
+Connect-SPOService 
+# Connect-SPOService -url "https://SLUDGE.sharepoint.com/_layouts/15/sharepoint.aspx"
+
+# Connect-OneDrive
+# groupid = 7270cb64-cef4-4da0-9306-780d5d5059ac
+# mail_nickname msteams_5f06d0
+
+
+
